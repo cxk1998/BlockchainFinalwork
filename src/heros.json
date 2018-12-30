@@ -1,0 +1,130 @@
+[
+  {
+    "id": 0,
+    "name": "艾希",
+    "picture": "images/aixi.jpg",
+    "atk": 3,
+    "def": 3,
+    "hp": 3
+  },
+  {
+    "id": 1,
+    "name": "刀妹",
+    "picture": "images/daomei.jpg",
+    "atk": 4,
+    "def": 4,
+    "hp": 4
+  },
+  {
+    "id": 2,
+    "name": "大头",
+    "picture": "images/datou.jpg",
+    "atk": 2,
+    "def": 3,
+    "hp": 3
+  },
+  {
+    "id": 3,
+    "name": "光辉",
+    "picture": "images/guanghui.jpg",
+    "atk": 2,
+    "def": 3,
+    "hp": 3
+  },
+  {
+    "id": 4,
+    "name": "火男",
+    "picture": "images/huonan.jpg",
+    "atk": 2,
+    "def": 3,
+    "hp": 3
+  },
+  {
+    "id": 5,
+    "name": "剑魔",
+    "picture": "images/jianmo.jpg",
+    "atk": 3,
+    "def": 3,
+    "hp": 3
+  },
+  {
+    "id": 6,
+    "name": "剑圣",
+    "picture": "images/jiansheng.jpg",
+    "atk": 3,
+    "def": 3,
+    "hp": 3
+  },
+  {
+    "id": 7,
+    "name": "皎月",
+    "picture": "images/jiaoyue.jpg",
+    "atk": 3,
+    "def": 3,
+    "hp": 3
+  },
+  {
+    "id": 8,
+    "name": "卢锡安",
+    "picture": "images/luxian.jpg",
+    "atk": 2,
+    "def": 3,
+    "hp": 3
+  },
+  {
+    "id": 9,
+    "name": "盲僧",
+    "picture": "images/mangseng.jpg",
+    "atk": 3,
+    "def": 3,
+    "hp": 3
+  },
+  {
+    "id": 10,
+    "name": "锐雯",
+    "picture": "images/ruiwen.jpg",
+    "atk": 2,
+    "def": 3,
+    "hp": 3
+  },
+  {
+    "id": 11,
+    "name": "赏金",
+    "picture": "images/shangjin.jpg",
+    "atk": 3,
+    "def": 3,
+    "hp": 3
+  },
+  {
+    "id": 12,
+    "name": "铁男",
+    "picture": "images/tienan.jpg",
+    "atk": 3,
+    "def": 3,
+    "hp": 3
+  },
+  {
+    "id": 13,
+    "name": "提莫",
+    "picture": "images/timo.jpg",
+    "atk": 4,
+    "def": 3,
+    "hp": 3
+  },
+  {
+    "id": 14,
+    "name": "武器",
+    "picture": "images/wuqi.jpg",
+    "atk": 2,
+    "def":3,
+    "hp": 3
+  },
+  {
+    "id": 15,
+    "name": "小法",
+    "picture": "images/xiaofa.jpg",
+    "atk": 2,
+    "def": 3,
+    "hp": 3
+  }
+]

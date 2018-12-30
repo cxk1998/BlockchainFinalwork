@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Summoner Battle</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body background="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1851545513,4140986719&fm=26&gp=0.jpg" style=" background-repeat:no-repeat ;background-size:100% 100%;background-attachment: fixed;">
+    <img src = "http://youxi.youth.cn/wyrd/201802/W020180209316928293053.gif" style="width:30%">
+	<div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-push-2">
+          <h1 class="text-center">Summoner Battle</h1>
+          <hr/>
+          <br/>
+        </div>
+      </div>
+
+      <div id="herosRow" class="row">
+        <!-- PETS LOAD HERE -->
+      </div>
+    </div>
+
+    <div id="heroTemplate" style="display: none; color:#6C6C6C">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="panel panel-default panel-hero">
+          <div class="panel-heading">
+            <h3 class="panel-title">Scrappy</h3>
+          </div>
+          <div class="panel-body">
+            <img alt="140x140" height="100" data-src="holder.js/140x140" class="img-rounded img-center" style="width: 100%;" src="https://animalso.com/wp-content/uploads/2017/01/Golden-Retriever_6.jpg" data-holder-rendered="true">
+            <br/><br/>
+            <strong>Hp</strong>: <span class="hero-hp">Golden Retriever</span><br/>
+            <strong>Atk</strong>: <span class="hero-atk">3</span><br/>
+            <strong>Def</strong>: <span class="hero-def">Warren, MI</span><br/><br/>
+            <button class="btn btn-default btn-summon" type="button" disabled="true" data-id="0">Success</button>
+			<button class="btn btn-default btn-battle" type="button" data-id="0">Battle</button>
+			<button class="btn btn-default btn-add" type="button" data-id="0">Add</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
